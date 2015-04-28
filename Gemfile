@@ -9,7 +9,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'modular_engine'
+gem "deface"
 gem 'shogun_core', path: 'engines/core'
+gem 'shogun_contacts', path: 'engines/contacts'
+
 
 group :development, :test do
     gem 'byebug'
