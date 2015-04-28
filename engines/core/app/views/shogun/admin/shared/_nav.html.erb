@@ -1,0 +1,15 @@
+<ul class="nav nav-pills navbar-right">
+
+ <li role="presentation" class="<%= active(shogun.admin_path) %>">
+   <%= link_to 'Dashboard', shogun.admin_path %>
+ </li>
+
+ <li role="presentation" class="<%= active(shogun.admin_users_path) %>">
+   <%= link_to shogun.admin_users_path do %>
+     Users
+     <span class="badge"><%= Shogun::User.count %></span>
+   <% end %>
+
+ </li>
+</ul>
+<div class='clearfix'></div>
