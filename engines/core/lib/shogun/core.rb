@@ -1,7 +1,8 @@
 require "core/engine"
+require 'bootstrap-sass'
+require 'autoprefixer-rails'
 
 module Shogun
   module Core
-    VERSION = "0.0.1"
   end
 end

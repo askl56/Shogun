@@ -1,3 +1,9 @@
+PATH
+  remote: engines/core
+  specs:
+    shogun_core (0.0.1)
+      rails (~> 4.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -148,6 +154,7 @@ DEPENDENCIES
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  shogun_core!
   spring
   sqlite3
   turbolinks
