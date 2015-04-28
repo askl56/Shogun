@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'bootstrap-sass', "~> 3.3.3"
   s.add_dependency 'autoprefixer-rails', "~> 5.1.5"
   s.add_dependency 'devise', '~> 3.4.1'
+  s.add_dependency 'cancan', '~> 1.6.10'
 
   s.add_development_dependency 'combustion', '~> 0.5.3'
   s.add_development_dependency "sqlite3"
