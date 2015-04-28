@@ -2,7 +2,7 @@ module Shogun
   module Core
     class Engine < ::Rails::Engine
       isolate_namespace Shogun
-      paths["app/views"] << "app/views/samurai"
+      paths["app/views"] << "app/views/shogun"
 
       initializer :append_migrations do |app|
         unless app.root.to_s.match(root.to_s)
