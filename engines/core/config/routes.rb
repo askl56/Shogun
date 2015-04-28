@@ -1,2 +1,2 @@
-Core::Engine.routes.draw do
+Shogun::Core::Engine.routes.draw do
 end

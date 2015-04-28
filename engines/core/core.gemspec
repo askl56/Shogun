@@ -1,17 +1,14 @@
 $:.push File.expand_path("../lib", __FILE__)
+require "shogun/core/version"
 
-# Maintain your gem's version:
-require "core/version"
-
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "core"
-  s.version     = Core::VERSION
-  s.authors     = ["askl56"]
+  s.name        = "shogun_core"
+  s.version     = Shogun::Core::VERSION
+  s.authors     = ["Andrew Scott"]
   s.email       = ["amscott@openmailbox.org"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Core."
-  s.description = "TODO: Description of Core."
+  s.homepage    = "http://cogentia.io"
+  s.summary     = "Core features of Shogun"
+  s.description = "Core features of Shogun"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
