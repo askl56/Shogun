@@ -2,8 +2,9 @@ PATH
   remote: engines/contacts
   specs:
     shogun_contacts (0.0.1)
-      deface
+      deface (~> 1.0.1)
       rails (~> 4.2.0)
+      shogun_core
 
 PATH
   remote: engines/core

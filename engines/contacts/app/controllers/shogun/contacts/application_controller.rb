@@ -1,6 +1,6 @@
 module Shogun
   module Contacts
-    class ApplicationController < ActionController::Base
+    class ApplicationController < Shogun::ApplicationController
     end
   end
 end

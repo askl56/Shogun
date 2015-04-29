@@ -15,7 +15,7 @@
 				<%- if current_user %>
 				<div class="navbar-collapse collapse" id="navbar">
 					<ul class="nav navbar-nav">
-						<li class="<%= active(shogun.root_path) %>">
+						<li data-shogun-hook='main_nav' class="<%= active(shogun.root_path) %>">
 							<%= link_to 'Home', shogun.root_path %>
 						</li>
 						<li class="<%= active(shogun.edit_user_registration_path) %>">
