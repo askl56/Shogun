@@ -1,6 +1,6 @@
 require 'cancan'
 
-module Samurai
+module Shogun
   module Contacts
     class AbilityDecorator
       include CanCan::Ability

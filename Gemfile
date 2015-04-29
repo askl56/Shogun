@@ -13,6 +13,8 @@ gem 'modular_engine'
 gem "deface"
 gem 'shogun_core', path: 'engines/core'
 gem 'shogun_contacts', path: 'engines/contacts'
+gem "shogun_tasks", path: 'engines/tasks'
+
 
 
 group :development, :test do
