@@ -4,6 +4,7 @@ module Shogun
   module Contacts
     class ContactsController < ApplicationController
       before_action :set_contact, only: [:show, :edit, :update, :destroy]
+      authorize_resource class: Shogun::Contacts::Contact
 
       def index
         @contacts = current_user.contacts
