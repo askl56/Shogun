@@ -3,7 +3,7 @@ module Shogun
     before_action :authenticate_user!
 
     rescue_from CanCan::AccessDenied do |exception|
-      render :file => "static/403.html", :status => 403, :layout => false
+      render file: "static/403.html", status: 403, layout: false
     end
 
     def current_ability
