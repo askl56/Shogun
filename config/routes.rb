@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Shogun::Core::Engine => "/", as: 'shogun'
+  mount Shogun::Core::Engine => '/', as: 'shogun'
 end

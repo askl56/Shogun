@@ -10,16 +10,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'modular_engine'
-gem "deface"
+gem 'deface'
 gem 'shogun_core', path: 'engines/core'
 gem 'shogun_contacts', path: 'engines/contacts'
-gem "shogun_tasks", path: 'engines/tasks'
-
-
+gem 'shogun_tasks', path: 'engines/tasks'
 
 group :development, :test do
-    gem 'byebug'
-    gem 'web-console', '~> 2.0'
-    gem 'spring'
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
-

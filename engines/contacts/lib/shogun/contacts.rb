@@ -1,4 +1,4 @@
-require "deface"
+require 'deface'
 
 module Shogun
   module Contacts

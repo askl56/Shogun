@@ -4,7 +4,6 @@ require 'autoprefixer-rails'
 require 'devise'
 require 'cancan'
 
-
 module Shogun
   module Core
     def self.available?(engine_name)

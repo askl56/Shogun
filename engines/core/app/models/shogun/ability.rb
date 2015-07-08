@@ -6,11 +6,11 @@ module Shogun
     self.abilities = Set.new
 
     def self.register_ability(ability)
-      self.abilities.add(ability)
+      abilities.add(ability)
     end
 
     def self.remove_ability(ability)
-      self.abilities.delete(ability)
+      abilities.delete(ability)
     end
 
     def initialize(user)

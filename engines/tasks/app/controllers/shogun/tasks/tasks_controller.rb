@@ -1,4 +1,4 @@
-require_dependency "shogun/application_controller"
+require_dependency 'shogun/application_controller'
 
 module Shogun::Tasks
   class TasksController < ApplicationController
@@ -45,12 +45,12 @@ module Shogun::Tasks
 
     private
 
-      def set_task
-        @task = Task.find(params[:id])
-      end
+    def set_task
+      @task = Task.find(params[:id])
+    end
 
-      def task_params
-        params.require(:task).permit(:title, :content, :user_id, :contact_id)
-      end
+    def task_params
+      params.require(:task).permit(:title, :content, :user_id, :contact_id)
+    end
   end
 end

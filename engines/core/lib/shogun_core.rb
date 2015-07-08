@@ -1,2 +1,2 @@
-require "shogun/core"
-require "shogun/core/engine"
+require 'shogun/core'
+require 'shogun/core/engine'

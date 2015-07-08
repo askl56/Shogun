@@ -1,4 +1,4 @@
-require_dependency "shogun/application_controller"
+require_dependency 'shogun/application_controller'
 
 module Shogun
   module Contacts
@@ -45,6 +45,7 @@ module Shogun
       end
 
       private
+
       def set_contact
         @contact = Contact.find(params[:id])
       end

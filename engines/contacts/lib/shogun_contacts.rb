@@ -1,2 +1,2 @@
-require "shogun/contacts"
-require "shogun/contacts/engine"
+require 'shogun/contacts'
+require 'shogun/contacts/engine'

@@ -1,2 +1,2 @@
-require "shogun/tasks"
-require "shogun/tasks/engine"
+require 'shogun/tasks'
+require 'shogun/tasks/engine'

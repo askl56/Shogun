@@ -9,7 +9,7 @@ module Shogun
       admin false
     end
 
-    factory :admin, parent: :user do |f|
+    factory :admin, parent: :user do |_f|
       admin true
     end
   end
