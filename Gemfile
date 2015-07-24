@@ -14,6 +14,7 @@ gem 'deface'
 gem 'shogun_core', path: 'engines/core'
 gem 'shogun_contacts', path: 'engines/contacts'
 gem 'shogun_tasks', path: 'engines/tasks'
+gem 'annotate'
 
 group :development, :test do
   gem 'byebug'
